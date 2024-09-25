@@ -1,0 +1,32 @@
+.dashboard {
+    width: 80%;
+    margin: 20px auto;
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: yellowgreen;
+}
+
+.summary {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    color: yellowgreen;
+}
+
+.card {
+    background-color: #e8eab7;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    color: yellowgreen;
+}
+
+#payment-table {
+    width: 100%;
+    border-collapse: collapse;
+    color: yellowgreen;
+}
+
+#payment-table th, #payment-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
